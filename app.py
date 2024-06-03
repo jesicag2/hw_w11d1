@@ -6,6 +6,11 @@ from schemas import ma
 from limiter import limiter
 from caching import cache
 
+from models.employee import Employee
+from models.product import Product
+from models.order import Order
+from models.customer import Customer
+from models.production import Production
 
 from routes.employeeBP import employee_blueprint
 from routes.productBP import product_blueprint
